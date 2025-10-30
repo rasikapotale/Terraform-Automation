@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mydev-project-terraform-rasika-potale-batch-26"
-    key = "main"
-    region = "us-east-1"
-    dynamodb_table = "rasika-potale-table"
+    bucket        = "mydev-project-terraform-sample-batch-aws-devops-azure-29"
+    key           = "main"
+    region        = "us-east-1"
+    use_lockfile  = true   # ✅ new parameter
   }
 }
